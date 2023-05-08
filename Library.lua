@@ -1,5 +1,5 @@
-if game:GetService("CoreGui"):FindFirstChild("InfernoHub - 666") then
-    game:GetService("CoreGui"):FindFirstChild("InfernoHub - 666"):Destroy()
+if game:GetService("CoreGui"):FindFirstChild("MysteryHub") then
+    game:GetService("CoreGui"):FindFirstChild("MysteryHub"):Destroy()
 end
 
 local DiscordLib = {}
@@ -86,7 +86,7 @@ local function MakeDraggable(topbarobject, object)
 end
 
 local Discord = Instance.new("ScreenGui")
-Discord.Name = "InfernoHub - 666"
+Discord.Name = "MysteryHub"
 Discord.Parent = game.CoreGui
 Discord.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
